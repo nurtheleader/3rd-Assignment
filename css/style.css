@@ -1,0 +1,336 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+
+}
+
+header {
+	width: 100%;
+	float: left;
+}
+
+.history {
+    margin: 0 0px;
+    text-align: center;
+    height: 150px;
+    background: black;
+    color: white;
+    font-size: 117px;
+}
+
+.container {
+	width: 1140px;
+	margin: 0 auto;
+}
+
+.logo {
+	width: 30%;
+	margin: 0 auto;
+	float: left;
+	background-color: #dcdde1;
+}
+
+.logo img {
+    height: 80px;
+    width: 173px;
+    margin: 0px 130px;
+}
+
+.h-menu {
+	width: 70%;
+	height: 84px;
+	float: left;
+	background-color: #dcdde1;
+}
+
+nav {
+
+}
+
+nav ul {
+    list-style: none;
+    margin: 6px;
+    font-size: 15px;
+}
+
+nav ul li {
+    display: inline-block;
+    margin: 25px 27px;
+    color: #161616;
+}
+
+nav ul li:hover {
+	transform: rotate(360deg);
+}
+
+.h-menu:hover {
+	color: red;
+	transition: 0.4s ease;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+}
+
+.fa.fa-facebook-square {
+	color: blue;
+}
+
+.fa.fa-google {
+	color: green;
+}
+
+.fa.fa-twitter {
+	color: blue;
+}
+
+.fa.fa-sign-in {
+	color: red;
+}
+
+section {
+	width: 100%;
+	float: left;
+}
+
+.login-sec {
+	width: 100%;
+	margin: 0 auto;
+	background: url(../img/bg.jpg);
+	height: 420px;
+	background-size: cover;
+}
+
+button {
+	margin: 0 auto;
+}
+
+.icons {
+	width: 80%;
+	margin: 0 auto;}
+
+.icon-one {
+	align-items: center;
+	width: 20%;
+
+}
+
+.fa.fa-check-circle {
+
+}
+
+
+h2 {
+	text-align: center;
+}
+
+.section-one {
+	width: 60%;
+	height: 450px;
+	background-color: #9c88ff;
+	float: left;
+	margin-bottom: 100px;
+}
+
+.signup-box {
+	font-family: sans-serif;
+	background: url(../img/login.jpg)no-repeat;
+	background-size: cover;
+}
+
+.info {
+    align-items: center;
+    width: 60%;
+    padding: 15px;
+    border-radius: 50px;
+    margin: 39px auto;
+    align-items: center;
+    background: none;
+    color: white;
+    display: block;
+    outline: none;
+    border-color: black;
+}
+
+button {
+    margin: 36px 46px;
+    width: 80%;
+    height: 36px;
+    background: #161616b0;
+    border: none;
+    border-radius: 50px;
+    transition: 0.4s ease;
+    cursor: pointer;
+}
+
+.social-f {
+	background: #32508ead;
+}
+
+.social-f:hover {
+	background: #2980b9;
+}
+
+.social-g {
+	background: #dd4b39ab;
+}
+
+.social-g:hover {
+	background: #c0392b;
+}
+
+.social-t {
+	background: #55acee8c;
+}
+
+.social-t:hover {
+	background: #2980b9;
+}
+
+.info:hover {
+	width: 80%;
+	transition: 0.5s ease;
+}
+
+.btn {
+    margin: 0 auto;
+    display: block;
+    background-color: #946f6f;
+    border: none;
+    outline: none;
+    padding: 16px;
+    border-radius: 33px;
+}
+
+.btn:hover {
+	background-color: #00b500;
+	transition: 0.4s ease;
+}
+
+h1 {
+    color: #fff;
+    text-align: center;
+    padding: 18px 0;
+    font-size: 49px;
+}
+
+.section-two {
+	width: 40%;
+	height: 460px;
+	background: url(../img/signup.jpg);
+	float: left;
+}
+
+.ta {
+    width: 100%;
+    margin: 0px auto;
+    font-size: 58px;
+    text-align: center;
+    height: 75px;
+    color: black;
+    background-color: gray;
+}
+
+.gallery {
+	width: 100%;
+	float: left;
+}
+
+.g-one {
+	width: 50%;
+	float: left;
+	height: 600px;
+	background-color: #fff;
+}
+
+.gt-one {
+	width: 50%;
+	float: left;
+	margin-bottom: 105px;
+}
+
+span {
+    font-size: 39px;
+}
+
+.g-two {
+	width: 50%;
+	float: left;
+	background-color: #fff;
+	height: 600px;
+
+/*.gt-two {*/
+	width: 50%;
+	float: left;
+}
+
+footer {
+	width: 100%;
+	float: left;
+}
+
+.fc-one {
+	width: 33.33%;
+	height: 300px;
+	float: left;
+	background-color: #40407a;
+}
+
+.fc-two {
+	width: 33.33%;
+	height: 300px;
+	float: left;
+	background-color: #706fd3;
+}
+
+.fc-three {
+	width: 33.33%;
+	height: 300px;
+	float: left;
+	background-color: #34ace0;
+}
+
+.f-one {
+	width: 20%;
+	height: 75px;
+	float: left;
+	background-color: #cd84f1;
+}
+
+.f-two {
+	width: 20%;
+	height: 75px;
+	float: left;
+	background-color: #ffcccc;
+}
+
+.f-three {
+	width: 20%;
+	height: 75px;
+	float: left;
+	background-color: #ff4d4d;
+}
+
+.f-four {
+	width: 20%;
+	height: 75px;
+	float: left;
+	background-color: #ffaf40;
+}
+
+.f-five {
+	width: 20%;
+	height: 75px;
+	float: left;
+	background-color: #fffa65;
+}
+
+.f-menu {
+    background-color: white;
+    height: 75px;
+}
